@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Showcase</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      padding: 20px;
+      text-align: center;
+      color: #fff;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #444;
+      padding: 10px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+    }
+
+    main {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .product-card {
+      flex: 0 0 30%;
+      margin: 10px;
+      border: 1px solid #ddd;
+      padding: 20px;
+    }
+
+    .product-card img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .sidebar {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #444;
+      color: #fff;
+      padding: 20px;
+      width: 200px;
+    }
+
+    footer {
+      background-color: #333;
+      padding: 10px;
+      text-align: center;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Product Showcase</h1>
+  </header>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Products</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <main>
+    <div class="product-card">
+      <img src="product1.jpg" alt="Product 1">
+      <h2>Product 1</h2>
+      <p>Description of Product 1</p>
+    </div>
+    <div class="product-card">
+      <img src="product2.jpg" alt="Product 2">
+      <h2>Product 2</h2>
+      <p>Description of Product 2</p>
+    </div>
+    <div class="product-card">
+      <img src="product3.jpg" alt="Product 3">
+      <h2>Product 3</h2>
+      <p>Description of Product 3</p>
+    </div>
+    <!-- Add more product cards here -->
+  </main>
+
+  <aside class="sidebar">
+    <h2>Related Links</h2>
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+    <!-- Add more related links here -->
+  </aside>
+
+  <footer>
+    <p>&copy; 2023 Your Company. All rights reserved.</p>
+  </footer>
+</body>
+</html>
